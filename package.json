@@ -1,0 +1,31 @@
+{
+  "name": "my-resume-react",
+  "version": "1.0.0",
+  "description":"",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhdbs/my-resume-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhdbs/my-resume-react/issues"
+  },
+  "homepage": "https://github.com/mhdbs/my-resume-react#readme",
+  "devDependencies": {
+    "ajv": "^6.5.4",
+    "url-parse": "^1.4.3"
+  }
+}
