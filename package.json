@@ -6,8 +6,7 @@
   "dependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "react-scripts": "1.1.4",
-    "webpack-dev-server": "^3.1.14"
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,9 +26,6 @@
   "homepage": "https://github.com/mhdbs/my-resume-react#readme",
   "devDependencies": {
     "ajv": "^6.5.4",
-    "url-parse": "^1.4.3",
-    "webpack": "^4.30.0",
-    "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.1.14"
+    "url-parse": "^1.4.3"
   }
 }
