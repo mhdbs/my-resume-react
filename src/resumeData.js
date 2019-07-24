@@ -37,11 +37,18 @@ let resumeData = {
     }
   ],
   "work":[
+	  {
+      "CompanyName":"Gogo air",
+      "specialization":"Engineer Software Development",
+      "MonthOfLeaving":"Jun 2019 - Current",
+      // "YearOfLeaving":"2018",
+      "Achievements":""
+    },
     {
       "CompanyName":"XYZ Innovations Pvt Ltd",
       "specialization":"Software Engineer",
-      "MonthOfLeaving":"Dec 2018 - Current",
-      // "YearOfLeaving":"2018",
+      "MonthOfLeaving":"Dec 2018 - Jun",
+      "YearOfLeaving":"2019",
       "Achievements":""
     },
     {

@@ -7,6 +7,12 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    labels:
+       - traefik.enable=true
+       - traefik.backend=react
+       - traefik.docker.network=traefik_proxy
+       - traefik.frontend.rule=Host:bilal.mhdbs.com
+       - traefik.port=3000
     volumes:
       - '.:/usr/src/app'
       - '/usr/src/app'
@@ -15,3 +21,10 @@ services:
       - '3000:3000'
     environment:
       - NODE_ENV=development
+    networks:
+      - traefik_proxy
+
+networks:
+  traefik_proxy:
+    external: true
+
